@@ -1,0 +1,113 @@
+.header{
+    background-color:  #003580;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    /* background-color: magenta; */
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+}
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+.headerList{
+    gap: 40px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.headerListItems{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.headerListItems.active{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.headerDesc{
+    margin: 20px 0px;
+}
+.headerBtn{
+    border:  none;
+    padding: 10px;
+    color: white;
+    background-color: #0071c2;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointers;
+}
+.headerSearch{
+    height: 50px;
+    background-color: white;
+    border: 3px solid yellow;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    bottom: -25px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.date{
+    top: 50px;
+    position: absolute;
+    z-index: 2;
+}
+.options{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    color: gray;
+    top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionCouterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    background-color: white;
+    cursor: pointer;
+}
+.optionCouterButton:disabled{
+    cursor: not-allowed;
+}
